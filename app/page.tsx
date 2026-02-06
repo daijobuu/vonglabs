@@ -2,12 +2,11 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Github, Apple, ArrowRight, Sparkles } from "lucide-react";
+import { Apple, ArrowRight, Sparkles } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const APP_STORE_URL =
   "https://apps.apple.com/fr/app/dailyzen-daily-mindful-quote/id6751102926";
-const GITHUB_URL = "https://github.com/daijobuu";
 
 export default function Home() {
   return (
@@ -32,19 +31,6 @@ export default function Home() {
               <span className="ml-2 text-xs text-neutral-500">
                 mobile wellness apps
               </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Button asChild variant="ghost" className="hidden sm:inline-flex">
-                <a
-                  href={GITHUB_URL}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center gap-2"
-                >
-                  <Github className="h-4 w-4" />
-                  <span>GitHub</span>
-                </a>
-              </Button>
             </div>
           </div>
         </header>
@@ -72,18 +58,6 @@ export default function Home() {
                 doom-scroll.
               </motion.p>
               <div className="mt-8 flex flex-wrap items-center gap-3">
-                <Button asChild size="lg">
-                  <a
-                    href={GITHUB_URL}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center gap-2"
-                  >
-                    <Github className="h-4 w-4" />
-                    <span>Explore GitHub</span>
-                    <ArrowRight className="h-4 w-4" />
-                  </a>
-                </Button>
                 <Button asChild size="lg" variant="outline">
                   <a href="#portfolio" className="flex items-center gap-2">
                     <span>See portfolio</span>
@@ -164,17 +138,6 @@ export default function Home() {
                         >
                           <Apple className="h-4 w-4" />
                           <span>App Store</span>
-                        </a>
-                      </Button>
-                      <Button asChild size="sm" variant="outline">
-                        <a
-                          href={GITHUB_URL}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="flex items-center gap-2"
-                        >
-                          <Github className="h-4 w-4" />
-                          <span>Source</span>
                         </a>
                       </Button>
                     </div>
