@@ -196,9 +196,10 @@ export default function Home() {
             <Card className="border-stone-200">
               <CardHeader>
                 <CardTitle className="flex items-center justify-between">
-                  <span>weathermood</span>
+                  <span>smokemon</span>
                   <div className="flex gap-2">
                     <Badge variant="outline">coming soon</Badge>
+                    <Badge variant="secondary">quit smoking</Badge>
                   </div>
                 </CardTitle>
               </CardHeader>
@@ -206,9 +207,9 @@ export default function Home() {
                 <div className="grid gap-5 md:grid-cols-2">
                   <div className="order-2 md:order-1">
                     <p className="text-sm text-stone-600">
-                      A mindful weather companion that sends a gentle
-                      notification and a personalized wellbeing tip based on
-                      today’s weather. Tune your mood with the forecast.
+                      An app to quit smoking by evolving your monster. Every
+                      smoke-free day helps your companion grow stronger, turning
+                      cravings into small, mindful quests.
                     </p>
                   </div>
                   <div className="order-1 md:order-2">
