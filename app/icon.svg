@@ -1,0 +1,28 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" fill="#080808"/>
+  <rect x="8" y="8" width="240" height="240" stroke="#222222" stroke-width="2"/>
+  
+  <!-- Corner registration marks -->
+  <path d="M8 24H24M8 8V24" stroke="#FF3B00" stroke-width="3"/>
+  <path d="M248 24H232M248 8V24" stroke="#FF3B00" stroke-width="3"/>
+  <path d="M8 232H24M8 248V232" stroke="#FF3B00" stroke-width="3"/>
+  <path d="M248 232H232M248 248V232" stroke="#FF3B00" stroke-width="3"/>
+  
+  <!-- Subtle technical grid -->
+  <line x1="128" y1="16" x2="128" y2="240" stroke="#161616" stroke-dasharray="4 4" stroke-width="1"/>
+  <line x1="16" y1="128" x2="240" y2="128" stroke="#161616" stroke-dasharray="4 4" stroke-width="1"/>
+
+  <!-- Brutalist R//0 Stencil Monogram -->
+  <path d="M52 64H124C148 64 164 78 164 100C164 120 148 132 128 134L168 192H134L98 140H78V192H52V64ZM78 88V116H120C132 116 138 110 138 100C138 90 132 88 120 88H78Z" fill="#EAEAEA"/>
+  
+  <!-- Red slash bar // -->
+  <line x1="166" y1="64" x2="136" y2="192" stroke="#FF3B00" stroke-width="8"/>
+  <line x1="184" y1="64" x2="154" y2="192" stroke="#FF3B00" stroke-width="8"/>
+
+  <!-- Zero 0 Stencil Wireframe -->
+  <rect x="180" y="96" width="34" height="64" stroke="#EAEAEA" stroke-width="6"/>
+  <line x1="180" y1="160" x2="214" y2="96" stroke="#EAEAEA" stroke-width="3"/>
+
+  <!-- Live Pulse Point -->
+  <rect x="120" y="222" width="16" height="4" fill="#00FF66"/>
+</svg>
